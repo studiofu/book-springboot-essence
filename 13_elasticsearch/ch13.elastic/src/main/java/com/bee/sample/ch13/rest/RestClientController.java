@@ -17,6 +17,13 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @RestController
 public class RestClientController {
 
+	/**
+	 * retrieve the data from elasticsearch and use object mapper to parse the data and convert into class
+	 * 
+	 * @param id
+	 * @return
+	 * @throws Exception
+	 */
 	@RequestMapping("/restclient/book/{id}")
 	public String getLogById(@PathVariable String id) throws Exception {
 		Book book = null;
