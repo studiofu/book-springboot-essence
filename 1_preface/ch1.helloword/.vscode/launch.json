@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ch1Application",
+            "request": "launch",
+            "mainClass": "com.bee.sample.ch1.Ch1Application",
+            "projectName": "ch1.helloworld"
+        }
+    ]
+}
